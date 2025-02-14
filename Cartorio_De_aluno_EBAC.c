@@ -198,26 +198,26 @@ int main()
         switch (opcao) // Início da escolha do usuário
         {
             case 1:
-                registrar(); // Chama a função registrar
-                break;
+            registrar(); // Chama a função registrar
+            break;
 
             case 2:
-                consultar(); // Chama a função consultar
-                break;
+            consultar(); // Chama a função consultar
+            break;
 
             case 3:
-                deletar(); // Chama a função deletar
-                break;
+            deletar(); // Chama a função deletar
+            break;
 
             case 4:
-                printf("Obrigado por utilizar o Sistema!\n");
-                return 0; // Sai do programa
-                break;
+            printf("Obrigado por utilizar o Sistema!\n");
+            return 0; // Sai do programa
+            break;
 
             default:
-                printf("Essa opção não está disponível!\n");
-                system("pause");
-                break;
+            printf("Essa opção não está disponível!\n");
+            system("pause");
+            break;
         }
     }
 
